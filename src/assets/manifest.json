@@ -1,0 +1,23 @@
+{
+  "name": "CASA Client App",
+  "baseUrl": "#",
+  "capabilities": [
+    {
+      "type": "activator",
+      "private": false,
+      "properties": {
+        "path": "myactivator"
+      }
+    },
+    {
+      "type": "view",
+      "private": false,
+      "qualifier": {
+        "entity": "person",
+        "id": "*"
+      }
+    }
+  ],
+  "intentions": [
+  ]
+}
